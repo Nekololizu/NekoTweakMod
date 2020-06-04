@@ -1,12 +1,10 @@
-# **NekoTweakMod** ![img](icon.png)
+# **Neko's Tweak Mod** ![img](icon.png)
  
 *Adds several vanilla quality of life and balance changes to Terraria.*
 
 # **Features** 
 
 **Added** ![#7CFC00](https://via.placeholder.com/15/7CFC00/000000?text=+)  **WIP** ![#FFFF00](https://via.placeholder.com/15/FFFF00/000000?text=+)  **Not Started** ![#FF0000](https://via.placeholder.com/15/FF0000/000000?text=+)
-
-
 
 
 
