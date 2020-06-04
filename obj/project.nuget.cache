@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "YVzv1ALKSeYVbv4jxkN6D4nvA5Y0rwZpRW8MyFSNq3o//MTaCbUOd70T9jaiDBX1bpXX0MJvcF5g3QQH/XtzWQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Dennis\\Documents\\My Games\\Terraria\\ModLoader\\Mod Sources\\NekoTweakMod\\NekoTweakMod.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Dennis\\.nuget\\packages\\tmodloader.codeassist\\0.1.1\\tmodloader.codeassist.0.1.1.nupkg.sha512"
+  ],
+  "logs": []
+}
