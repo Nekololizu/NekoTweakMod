@@ -1,4 +1,8 @@
 # **Neko's Tweak Mod** ![img](icon.png)
+[![GitHub release](https://img.shields.io/github/release/Nekololizu/NekoTweakMod.svg)](https://github.com/Nekololizu/NekoTweakMod/releases/latest)
+[![GitHub downloads](https://img.shields.io/github/downloads/Nekololizu/NekoTweakMod/latest/total.svg)](https://github.com/Nekololizu/NekoTweakMod/releases/latest)
+[![GitHub downloads](https://img.shields.io/github/downloads/Nekololizu/NekoTweakMod/total.svg)](https://github.com/Nekololizu/NekoTweakMod/releases)
+[![GitHub issues](https://img.shields.io/github/issues/Nekololizu/NekoTweakMod.svg)](https://github.com/Nekololizu/NekoTweakMod/issues)
  
 *Adds several vanilla quality of life and balance changes to Terraria.*
 
