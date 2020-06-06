@@ -7,7 +7,7 @@
 *Adds several vanilla quality of life and balance changes to Terraria.*
 
 ## Contributions
-**Special thanks to these people for helping out with with explaining things or pointing me in the right direction**
+**Special thanks to these people for helping out with explaining things or pointing me in the right direction**
 - [jopojelly](https://forums.terraria.org/index.php?members/jopojelly.37401/)
 - [absoluteAquarian](https://forums.terraria.org/index.php?members/absoluteaquarian.64645/)
 - Lyker
@@ -16,6 +16,7 @@
 
 # **Features** 
 **Most files should have plenty of comments if you are wondering about how something works**
+
 **Everything is WIP right now, setting up the basics so i can do the things on the list** 
 
 
