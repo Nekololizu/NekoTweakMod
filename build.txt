@@ -2,6 +2,4 @@ displayName = Neko's Tweak Mod
 author = Neko
 version = 0.0.0.2
 homepage = https://forums.terraria.org/index.php?members/neko.6574/
-hideCode = false
-includeSource = true
 buildIgnore = obj\*, bin\*, *.csproj, .git\*, .gitattributes, .gitignore, .psd, .sln, ..vs\*, LICENSE
