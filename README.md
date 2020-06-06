@@ -7,13 +7,16 @@
 *Adds several vanilla quality of life and balance changes to Terraria.*
 
 ## Contributions
-**Special thanks to these people for helping out**
+**Special thanks to these people for helping out with with explaining things or pointing me in the right direction**
 - [jopojelly](https://forums.terraria.org/index.php?members/jopojelly.37401/)
 - [absoluteAquarian](https://forums.terraria.org/index.php?members/absoluteaquarian.64645/)
+- Lyker
+- [direwolf420](https://forums.terraria.org/index.php?members/direwolf420.123064/)
+- thegamemagic1234
 
 # **Features** 
-
-**Added** ![#7CFC00](https://via.placeholder.com/15/7CFC00/000000?text=+)  **WIP** ![#FFFF00](https://via.placeholder.com/15/FFFF00/000000?text=+)  **Not Started** ![#FF0000](https://via.placeholder.com/15/FF0000/000000?text=+)
+**Most files should have plenty of comments if you are wondering about how something works**
+**Everything is WIP right now, setting up the basics so i can do the things on the list** 
 
 
 **Fishing related:**
