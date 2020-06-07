@@ -14,8 +14,8 @@ namespace NekoTweakMod.Items
                 player.kbGlove = false; // Sets this item as a knockback glove
                 player.releaseUseItem = true; // Gives the accessory autoReuse/AutoSwing
             }
-            if(item.noMelee)
-                player.releaseUseItem = false;
+           // if(item.noMelee)
+             //   player.releaseUseItem = false;
             {
                 //single-line "if" statement examples, changing 1 property only for each if statement
                 if (item.type == ItemID.TitanGlove) player.meleeSpeed += 0.12f; // 12% increased melee speed
