@@ -14,11 +14,42 @@
 - [direwolf420](https://forums.terraria.org/index.php?members/direwolf420.123064/)
 - thegamemagic1234
 
-# **Features** 
-**Most files should have plenty of comments if you are wondering about how something works**
+# **Current Features** 
 
-**Everything is WIP right now, setting up the basics so i can do the things on the list** 
+- Sharpening Station,Ammo Box,Crystal Ball,slice of cake & Bewitching Table etc
+(Now work like campfires giving the buff permanently while you are nearby one and for 10minutes if you go away from them, similar to honey buff if you leave the honey)
 
+- Muramasa damage changed from 21 to 26
+(Bit more competetive damage as it can't apply any debuffs, but also not to much due to its fast attack speed)
+
+- Feral claws changed from "12% increased melee speed" to "melee autoswing"
+(Melee Autoswing also applies to summoner whips) 
+
+- Titan glove changed from " 100% increased melee knockback & melee autoswing" to "100% increased melee knockback 12% increased melee speed"
+
+- Fire gauntlet melee damage & speed increased from 10% to 12%
+
+- Reaver Shark(Pickaxe) Use time changed from 22 to 19 (Slightly faster)
+
+- Worm Scarf now has 2 defense along with the 17% damage reduction
+(Due to BoC 2.0 being a thing)
+
+- Finch Staff knockback changed from 4 to 0, damage changed from 7 to 9
+(Won't knock enemies into you anymore & bit more damage so it can be useful for more than killing slimes)
+^this one is disabled until tmod updates to v1.4
+
+- Shackle now gives 50 aggro & also have the tooltip "Enemies are more likely to target you"
+(Weak aggro to have the option to "tank" pre hardmode)
+
+- Ivy whip renamed to "Ivy hook" to prevent confusions with the summoner whip weapons
+
+
+
+
+
+
+
+**Everything below here is WIP/Planned~ and might change**
 
 **Fishing related:**
 
@@ -57,15 +88,6 @@
 
 **Weapon/Armor/Accessorie related:**
 
-- Feral claws changed from "12% increased melee speed" to "melee autoswing"
-(Melee Autoswing also applies to summoner whips) 
-
-- Titan glove changed from " 100% increased melee knockback & melee autoswing" to "100% increased melee knockback 12% increased melee speed"
-
-- Fire gauntlet melee damage & speed increased from 10% to 12%
-
-- Reaver Shark(Pickaxe) Use time changed from 22 to 19 (Slightly faster)
-
 - Ninja set becoming a summoner armor
 
 - Obsidian Outlaw Hat now gives "Increases minion damage by 5%" instead of having no bonus
@@ -73,27 +95,8 @@
 - Obsidian armor now has a set effect giving "Increases your max number of minions by 1" instead of having no set effect
 (To have a summoner armor obtainable pre boss, while still not making it obtainable instantly from wood armor etc and to not compete directly with bee armor later)
 
-- Worm Scarf now has 2 defense along with the 17% damage reduction
-(Due to BoC 2.0 being a thing)
-
-- Finch Staff knockback changed from 4 to 0, damage changed from 7 to 9
-(Won't knock enemies into you anymore & bit more damage so it can be useful for more than killing slimes)
-
 - Flesh Knuckles,Berserker's Glove & Hero Shield defense changed from 7 to 10
 (Evens it out a bit compared to Putrid scent "worth" wise)
-
-- Muramasa damage changed from 21 to 26
-(Bit more competetive damage as it can't apply any debuffs, but also not to much due to its fast attack speed)
-
-- Shackle now gives 50 aggro & also have the tooltip "Enemies are more likely to target you"
-(Weak aggro to have the option to "tank" pre hardmode)
-
-
-
-**Pet/Mount related:**
-
-- All master mode pets/mounts added to expert mode boss bags
-
 
 
 **NPC related:**
@@ -119,24 +122,10 @@
 - Obsidian block mining power requirement changed from 65% to 55% 
 (bone/gold/plat or better, so its possible to break pre bosses without requiring bombs)
 
-- Sharpening Station,Ammo Box,Crystal Ball,slice of cake & Bewitching Table etc
-(Now work like campfires giving the buff permanently while you are nearby one and for 10minutes if you go away from them, similar to honey buff if you leave the honey)
-
-- All Master mode boss furniture added to expert mode boss bags
-
 - Trapped Chests now work like Dead Man's Chests and can be used for storage
 
 - corruption/crimson version of mud/jungle blocks
 (Keeping the jungle biome active even if it gets infected by an evil biome)
-
-
-
-**ocd/text changes:**
-
-- All instances of "critical strike chance" on vanilla armor/accessory tooltips now say "critical chance" instead
-
-- Ivy whip name changed to "ivy hook" to prevent confusions with the summoner whip weapons
-
 
 
 **Custom items:**

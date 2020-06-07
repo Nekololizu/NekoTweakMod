@@ -10,24 +10,33 @@ namespace NekoTweakMod.Items
     {
         public override void ModifyTooltips(Item item, List<TooltipLine> tooltips) // Allows you to set/change all available tooltips
         {
-            if (item.type == ItemID.Carrot) // specifies what item
+            if (item.type == ItemID.FeralClaws) // Specifies what item to change, If its this specific item the code below will be used
             {
-                // Optional code to remove tooltips
+                // Optional code to remove a tooltips
                 //   tooltips.RemoveAll(x => x.Name == "Tooltip0" && x.mod == "Terraria");
 
                 TooltipLine line = tooltips.FirstOrDefault(x => x.Name == "Tooltip0" && x.mod == "Terraria");
-                // Grabs the vanilla tooltip "tooltip0" from mod, In this case from vanilla "Terraria" and not from a mod
+                // Grabs Name(name of the tooltip) from the tooltip "tooltip0" from a mod with the name "Terraria"
+                // In this case from vanilla Terraria, and not from a mod
+                // And changes the line(string) value from tooltips into the text
+                // The Specified item has to have the tooltip that we are trying to grab else nothing will
 
-                if (line != null) // If the item dont have the specified tooltip you are trying to change nothing will change/appear in game
+                if (line != null) // If the line(String) is not empty, do the code below
+                // If the item dont have the specified tooltip you are trying to change nothing will change/appear in game
+                // you will crash in game without this when you try to check the tooltip of an item
                 {
-                    line.text = "UwU custom tooltip text"; // This is the Text that appear as your item tooltip in game
+                    line.text = "Enables auto swing for melee weapons"; // This is the Text that appear as your tooltip on the item in game
                 }
-                // THIS 2nd item CODE IS BORKED ^^, can only change 1 item per file right now
-                if (item.type == ItemID.Gel) 
-                if (line != null)
-                line.text = "owo";
-                {
-                }
+            }
+            {
+                /* if(item.type == ItemID.PowerGlove) // Changing multiple tooltip lines at once
+                                                    //  Tooltip0 will be the first tooltip line & tooltip1 the second, etc
+                 {
+                     TooltipLine line2 = tooltips.FirstOrDefault(x => x.Name == "Tooltip0" && x.mod == "Terraria");
+                     if (line2 != null) line2.text = "powerglove knockback text";
+                     TooltipLine line3 = tooltips.FirstOrDefault(x => x.Name == "Tooltip1" && x.mod == "Terraria");
+                     if (line3 != null) line3.text = "12% increased melee speed"; 
+                 } */
             }
         }
     }

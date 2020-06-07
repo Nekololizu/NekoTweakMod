@@ -5,21 +5,20 @@ using Terraria.ModLoader;
 namespace NekoTweakMod.Tiles
 //Namespace is where the code start and end with { & }
 {
-public class NearbyEffect : GlobalTile // class name & vanilla tiles
-//Class
+    public class NearbyEffect : GlobalTile // class name & vanilla tiles
     {
         public override void NearbyEffects(int i, int j, int type, bool closer) //Apply something if nearby specified tile
         //Methods inside the Class
         {
-            base.NearbyEffects(i, j, type, closer); 
-            if (type == TileID.WorkBenches)//Gives this specific tile a NearbyEffect
-                Main.LocalPlayer.AddBuff(BuffID.Regeneration, 35999); // (BuffID.BuffName, duration); 
-           //NearbyEffect give a buff to player nearby players.     Duration is set in ticks not seconds. 60ticks = 1second. 36000 = 10 minutes
-            { // seperation between each "if" statement so syntax stay organized
-
-            if (type == TileID.Torches)// Second Tile that will get changed
-                Main.LocalPlayer.AddBuff(BuffID.Ironskin, 35999);// the buff that will apply to the second tile
-            }
+            base.NearbyEffects(i, j, type, closer);
+            if (type == TileID.AmmoBox) Main.LocalPlayer.AddBuff(BuffID.AmmoBox, 35999); // Duration is set in ticks not seconds. 60ticks = 1second. 36000 = 10 minutes
+            //Gives this specific tile a NearbyEffect
+            // (BuffID.BuffName, duration); 
+            //NearbyEffect makes an item do something while nearby it.  In this case the Tiles give the player a buff  
+            if (type == TileID.BewitchingTable) Main.LocalPlayer.AddBuff(BuffID.Bewitched, 35999);
+            if (type == TileID.CrystalBall) Main.LocalPlayer.AddBuff(BuffID.Clairvoyance, 35999);
+            if (type == TileID.SharpeningStation) Main.LocalPlayer.AddBuff(BuffID.Sharpened, 35999);
+            //if (type == TileID.SliceOfCake) Main.LocalPlayer.AddBuff(BuffID.SugarRush, 35999); temporary disabled until tmod v1.4
         }
     }
 }

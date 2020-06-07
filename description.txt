@@ -1,25 +1,25 @@
 Neko's Tweak Mod
 Adds several vanilla quality of life and balance changes
 
-Few examples: ( ALL THESE ARE PLANNED/WIP FOR NOW)
--Pyramid chest loot in Oasis crates
--Buffed Muramasa
--Living Tree chest loot from fishing(Finch Staff etc)
--Bewitching Table and all other placed buff Items have
-an Area of Effect similar to campfires
--Better linear fishing power progression for fishing rods
--Fledgling Wings obtainable outside of Journey mode
--Bottomless Honey Bucket
+Few example features:
+
+- Placed buff items like bewitching table,ammo box etc now works like campfires giving you the buff while nearby & for 10minutes after going away
+
+- Muramasa damage changed to 26
+
+- Feral claws now give "melee autoswing" (Melee Autoswing also applies to summoner whips) 
+
+- Titan glove now give "12% increased melee speed" 
+
+- Fire gauntlet melee damage & speed increased from 10% to 12%
+
+- Reaver Shark Use time changed from 22 to 19 (Slightly faster)
+
+- Shackle now gives a small amount of aggro when equipped & also have the tooltip "Enemies are more likely to target you"
+
+- Ivy whip renamed to "Ivy hook" to prevent confusions with the summoner whip weapons
+
 
 Visit the mod's homepage for a full feature list. 
-
-
-
-
-
-
-
-
-
 
 UwU
