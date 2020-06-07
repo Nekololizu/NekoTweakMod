@@ -9,7 +9,6 @@ namespace NekoTweakMod.Items
     {
         public override void ModifyTooltips(Item item, List<TooltipLine> tooltips) // Allows you to modify tooltip properties for items
         {
-            base.ModifyTooltips(item, tooltips);
             if (item.type == ItemID.Shackle) // Specifies what item 
             {
                 TooltipLine newTooltip = new TooltipLine(mod, "Tooltip0", "Enemies are more likely to target you");

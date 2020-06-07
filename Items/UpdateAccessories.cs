@@ -8,15 +8,14 @@ namespace NekoTweakMod.Items
     {
         public override void UpdateAccessory(Item item, Player player, bool hideVisual)
         {
-            base.UpdateAccessory(item, player, hideVisual);
+            if (item.type == ItemID.FeralClaws)
             {
-                if (item.type == ItemID.FeralClaws)
-                {
-                    player.meleeSpeed -= 0.12f; // Gives -12% melee speed
-                    player.kbGlove = false; // Sets this item as a knockback glove
-                    player.releaseUseItem = true; // Gives the accessory autoReuse/AutoSwing
-                }
+                player.meleeSpeed -= 0.12f; // Gives -12% melee speed
+                player.kbGlove = false; // Sets this item as a knockback glove
+                player.releaseUseItem = true; // Gives the accessory autoReuse/AutoSwing
             }
+            if(item.noMelee)
+                player.releaseUseItem = false;
             {
                 //single-line "if" statement examples, changing 1 property only for each if statement
                 if (item.type == ItemID.TitanGlove) player.meleeSpeed += 0.12f; // 12% increased melee speed

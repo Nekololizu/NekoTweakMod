@@ -10,7 +10,6 @@ namespace NekoTweakMod.Tiles
         public override void NearbyEffects(int i, int j, int type, bool closer) //Apply something if nearby specified tile
         //Methods inside the Class
         {
-            base.NearbyEffects(i, j, type, closer);
             if (type == TileID.AmmoBox) Main.LocalPlayer.AddBuff(BuffID.AmmoBox, 35999); // Duration is set in ticks not seconds. 60ticks = 1second. 36000 = 10 minutes
             //Gives this specific tile a NearbyEffect
             // (BuffID.BuffName, duration); 
