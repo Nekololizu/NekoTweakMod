@@ -6,6 +6,7 @@ namespace NekoTweakMod.Items
 {
     public class ModifySetEffect : GlobalItem
     {
+        // This is String instead of bool, so it works with the "string set" parameter in UpdateArmorSet
         const string NinjaSet = "Ninja Armor"; // We need a string to change for specifying what set to change later on in the code
         const string ObsidianSet = "Obsidian armor";
         public override string IsArmorSet(Item head, Item body, Item legs) // Allows us to specify if these items together is a armor

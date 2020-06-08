@@ -37,7 +37,7 @@
 - The ninja armor now gives 20% summon damage instead of movement speed as its set bonus
 
 - The obsidian armor now have a set effect giving 30% summon damage
-Additionally the helm,shirt,pants give 5,10 & 5 % summon damage each
+Additionally the helm,shirt,pants give 5,10 & 5 % summon damage respectively
 
 - Feral claws changed from "12% increased melee speed" to "melee autoswing"
 (Melee Autoswing also applies to summoner whips) 
