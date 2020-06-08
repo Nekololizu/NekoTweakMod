@@ -11,11 +11,11 @@ namespace NekoTweakMod.Items
             // if (item.type == ItemID.BabyBirdStaff) // disabled until tmod v1.4 
             // specifies what item to change
             {
-               // item.damage = 9; // changes the items damage
+                // item.damage = 9; // changes the items damage
                 //item.knockBack = 0;
             }
             if (item.type == ItemID.WormScarf) item.defense = 2; // Single line if statement as we are only changing 1 property
-            if (item.type == ItemID.Muramasa) item.damage = 26; 
+            if (item.type == ItemID.Muramasa) item.damage = 26;
             if (item.type == ItemID.MiningShirt) item.value = Item.buyPrice(0, 4, 0, 0); // changes the sale value
             if (item.type == ItemID.MiningPants) item.value = Item.buyPrice(0, 4, 0, 0); // (0, 0, 0, 0); plat,gold,silver,copper
             {

@@ -1,4 +1,4 @@
-using Terraria.ID;
+/*using Terraria.ID;
 using Terraria;
 using Terraria.ModLoader;
 
@@ -8,7 +8,7 @@ namespace NekoTweakMod.Items.Fishing
     {
         public override void OpenVanillaBag(string context, Player player, int arg)
         {
-            if (context == "crate" && arg == ItemID.IronCrate)
+            if (context == "crate" && arg == ItemID.oasis crate) 
             // if context & arg is = "Context" & item id
             // Context in this case specifies what type of thing we are opening, has to be one of these: "present", "bossBag", "crate", "lockBox", "herbBag", or "goodieBag"
             // arg specifies the itemid of the present/bag/crate we are trying to open
@@ -17,18 +17,49 @@ namespace NekoTweakMod.Items.Fishing
                 // Each item here will roll individually, so its possible for several of them to drop together with each other
                 // They will also not share any specific present/bag/crate loot pool with any other items
                 // This means they will always get a chance to roll 100% of the time when a present/bag/crate is used
-                // if (Main.rand.NextBool(33)) player.QuickSpawnItem(ItemID.WoodenSword); 
+                // if (Main.rand.NextBool(33)) player.QuickSpawnItem(ItemID.sandstorm in a bottle); 
                 // if (Main.rand.NextBool(25)) player.QuickSpawnItem(ItemID.Meowmere);
                 // if (Main.rand.NextBool(50)) player.QuickSpawnItem(ItemID.PlanteraBossBag);
                 // if (Main.rand.NextBool(75)) player.QuickSpawnItem(ItemID.HotlineFishingHook);
 
             }
+            {
+                if (context == "crate" && arg == ItemID.oasiscratehardmode) // hardmode oasis crate
+                {
+                    if (Main.rand.NextBool(33)) player.QuickSpawnItem(ItemID.WoodenSword);
+                }
+            }
+            {
+                if (context == "crate" && arg == ItemID.oceancrate)
+                {
+                   if (Main.rand.NextBool(95)) player.QuickSpawnItem(ItemID.WaterWalkingBoots); // 5% chance for each ocean biome crate
+                }
+            }
+            {
+                if (context == "crate" && arg == ItemID.oceancratehardmode) // hard mode version of ocean crate
+                {
+                    if (Main.rand.NextBool(95)) player.QuickSpawnItem(ItemID.WaterWalkingBoots);
+                }
+            }
+            {
+                if (context == "crate" && arg == ItemID.lavacrate)
+                {
+                    if (Main.rand.NextBool(97)) player.QuickSpawnItem(ItemID.LavaCharm); // 3% chance for each lava crate
+                }
+            }
+            {
+                if (context == "crate" && arg == ItemID.lavacrate) // hardmode version of lava crate
+                {
+                    if (Main.rand.NextBool(97)) player.QuickSpawnItem(ItemID.LavaCharm);
+                }
+            } 
         }
     }
 }
-
+*/
 /*
-        ~InstancePerEntity explanation~       
+        ~InstancePerEntity explanation~ 
+        Thanks to absoluteAquarian for helping me understand all this gibberish
 
         public string Context;
         public bool RandomBool; 

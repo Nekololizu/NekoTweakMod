@@ -47,21 +47,21 @@ namespace NekoTweakMod.Items
                 }
             }
             {
-                if(item.type == ItemID.ObsidianHelm)
+                if (item.type == ItemID.ObsidianHelm)
                 {
                     TooltipLine newTooltip = new TooltipLine(mod, "Tooltip0", "Increases minion damage by 5%");
                     tooltips.Add(newTooltip);
                 }
             }
             {
-                if(item.type == ItemID.ObsidianShirt)
+                if (item.type == ItemID.ObsidianShirt)
                 {
                     TooltipLine newTooltip = new TooltipLine(mod, "Tooltip0", "Increases minion damage by 10%");
                     tooltips.Add(newTooltip);
                 }
             }
             {
-                if(item.type == ItemID.ObsidianPants)
+                if (item.type == ItemID.ObsidianPants)
                 {
                     TooltipLine newTooltip = new TooltipLine(mod, "Tooltip0", "Increases minion damage by 5%");
                     tooltips.Add(newTooltip);

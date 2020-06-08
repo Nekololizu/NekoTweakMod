@@ -15,61 +15,64 @@
 - thegamemagic1234
 - Oli
 
-# **Current Features** 
+# **Current Features so far** 
 
-- Sharpening Station,Ammo Box,Crystal Ball,slice of cake & Bewitching Table etc
-(Now work like campfires giving the buff permanently while you are nearby one and for 10minutes if you go away from them, similar to honey buff if you leave the honey)
+- Placed buff items like bewitching table,ammo box etc now work similar to campfires giving you the buff while nearby & also for 10minutes after
 
-- Muramasa damage changed from 21 to 26
-(Bit more competetive damage as it can't apply any debuffs, but also not to much due to its fast attack speed)
+- [Muramasa](https://www.youtube.com/watch?v=V4F_zBKyMY0) damage changed to 26
+
+-Merchant now sell the full mining set so its achievable early on while its still useful
 
 - A more linear fishing rod progression with buffs/nerfs to all rods, better early rods
 
+- Adds corruption/crimson/event Items all the time for NPCs
+
 - Steampunker will always sell the mechanic's fishing rod
 
-- Adds corruption/crimson/hallow Items all the time for Dryad & Steampunker
-
-- Spider Mask now only give minion damage & Dryad now sells pygmy necklace pre hardmode
-
-- Living Tree & Pyramid chest loot from fishing crates *still WIP*
+- Living Tree & Pyramid chest loot from fishing crates *WIP, need tmod v1.4*
 (Finch staff & Sandstorm in a Bottle etc)
+
+- Finch Staff knockback changed from 4 to 0, damage changed from 7 to 9 *WIP, need tmod v1.4*
+
+- Spider Mask now only give minion damage & Dryad sells pygmy necklace pre hardmode
 
 - The ninja armor now gives 20% summon damage instead of movement speed as its set bonus
 
 - The obsidian armor now have a set effect giving 30% summon damage
 Additionally the helm,shirt,pants give 5,10 & 5 % summon damage respectively
 
-- Feral claws changed from "12% increased melee speed" to "melee autoswing"
-(Melee Autoswing also applies to summoner whips) 
-
-- Titan glove changed from " 100% increased melee knockback & melee autoswing" to "100% increased melee knockback 12% increased melee speed"
-
-- Fire gauntlet melee damage & speed increased from 10% to 12%
-
-- Reaver Shark(Pickaxe) Use time changed from 22 to 19 (Slightly faster)
-
 - Worm Scarf now has 2 defense along with the 17% damage reduction
-(Due to BoC 2.0 being a thing)
 
 - Some summoner weapon sound changes so they fit their weapons better
 
-- Finch Staff knockback changed from 4 to 0, damage changed from 7 to 9
-(Won't knock enemies into you anymore & bit more damage so it can be useful for more than killing slimes)
-^this one is disabled until tmod updates to v1.4
+- Feral claws now give "melee autoswing" instead of melee speed
+(Melee Autoswing also applies to summoner whips)
 
-- Shackle now gives 50 aggro & also have the tooltip "Enemies are more likely to target you"
-(Weak aggro to have the option to "tank" pre hardmode)
+- Titan glove now give "12% increased melee speed"
+
+- Fire gauntlet melee damage & speed increased from 10% to 12%
+
+- Reaver Shark Use time changed from 22 to 19 (Slightly faster)
+
+- Shackle now gives a small amount of aggro when equipped & also have the tooltip "Enemies are more likely to target you"
 
 - Ivy whip renamed to "Ivy hook" to prevent confusions with the summoner whip weapons
 
-- Merchant now sell the full mining set so its achievable early on
+- Trapped/fake Chests now work like Dead Man's Chests and can be used for storage *WIP, need tmod v1.4*
 
 
 
 
-# **Everything below here is WIP/Planned~ and might change**
+
+# **WIP/PLANNED FEATURES**
+**Everything below here might change a bit or get removed**
 
 **Fishing related:**
+
+- Still thinking about where/how to place Living Tree loot in crates
+(Will probly be the normal wood,iron,gold crates etc but with their own lootpool)
+
+- Pyramid chest loot will be in oasis Crates
 
 - Fledgling Wings obtainable from Titanium crates in hardmode
 (So its not Journey mode exclusive, and still not obtainable before other wings to break balance)
