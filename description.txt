@@ -5,7 +5,7 @@ Few example features:
 
 - Placed buff items like bewitching table,ammo box etc now work similar to campfires giving you the buff while nearby & also for 10minutes after
 
-- Muramasa has been buffed
+- Adds corruption/crimson/event items all the time for NPCs
 
 - Living Tree & Pyramid chest loot from fishing crates *still WIP*
 (Finch staff & Sandstorm in a Bottle etc)

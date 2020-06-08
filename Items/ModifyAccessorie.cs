@@ -4,7 +4,7 @@ using Terraria.ModLoader;
 
 namespace NekoTweakMod.Items
 {
-    public class ModifyAccessories : GlobalItem
+    public class ModifyAccessorie : GlobalItem
     {
         public override void UpdateAccessory(Item item, Player player, bool hideVisual)
         {

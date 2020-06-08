@@ -16,8 +16,8 @@ namespace NekoTweakMod.Items
             }
             if (item.type == ItemID.WormScarf) item.defense = 2; // Single line if statement as we are only changing 1 property
             if (item.type == ItemID.Muramasa) item.damage = 26; 
-            if (item.type == ItemID.MiningShirt) item.shopCustomPrice = 40000; // changes the sale value
-            if (item.type == ItemID.MiningPants) item.shopCustomPrice = 40000;
+            if (item.type == ItemID.MiningShirt) item.value = Item.buyPrice(0, 4, 0, 0); // changes the sale value
+            if (item.type == ItemID.MiningPants) item.value = Item.buyPrice(0, 4, 0, 0); // (0, 0, 0, 0); plat,gold,silver,copper
             {
                 if (item.type == ItemID.ReaverShark)
                 {

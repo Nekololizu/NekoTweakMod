@@ -25,6 +25,12 @@
 
 - A more linear fishing rod progression with buffs/nerfs to all rods, better early rods
 
+- Steampunker will always sell the mechanic's fishing rod
+
+- Adds corruption/crimson/hallow Items all the time for Dryad & Steampunker
+
+- Spider Mask now only give minion damage & Dryad now sells pygmy necklace pre hardmode
+
 - Living Tree & Pyramid chest loot from fishing crates *still WIP*
 (Finch staff & Sandstorm in a Bottle etc)
 
@@ -39,6 +45,8 @@
 
 - Worm Scarf now has 2 defense along with the 17% damage reduction
 (Due to BoC 2.0 being a thing)
+
+- Some summoner weapon sound changes so they fit their weapons better
 
 - Finch Staff knockback changed from 4 to 0, damage changed from 7 to 9
 (Won't knock enemies into you anymore & bit more damage so it can be useful for more than killing slimes)

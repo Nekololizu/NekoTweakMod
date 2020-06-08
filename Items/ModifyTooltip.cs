@@ -12,9 +12,6 @@ namespace NekoTweakMod.Items
         {
             if (item.type == ItemID.FeralClaws) // Specifies what item to change, If its this specific item the code below will be used
             {
-                // Optional code to remove a tooltips
-                //   tooltips.RemoveAll(x => x.Name == "Tooltip0" && x.mod == "Terraria");
-
                 TooltipLine line = tooltips.FirstOrDefault(x => x.Name == "Tooltip0" && x.mod == "Terraria");
                 // Grabs Name(name of the tooltip) from the tooltip "tooltip0" from a mod with the name "Terraria"
                 // In this case from vanilla Terraria, and not from a mod
@@ -33,6 +30,13 @@ namespace NekoTweakMod.Items
                 {
                     TooltipLine line2 = tooltips.FirstOrDefault(x => x.Name == "Tooltip1" && x.mod == "Terraria");
                     if (line2 != null) line2.text = "12% increased melee damage and speed";
+                }
+            }
+            {
+                if (item.type == ItemID.SpiderMask)
+                {
+                    TooltipLine line3 = tooltips.FirstOrDefault(x => x.Name == "Tooltip0" && x.mod == "Terraria");
+                    if (line3 != null) line3.text = ""; // Removes the tooltip from the item
                 }
             }
         }
