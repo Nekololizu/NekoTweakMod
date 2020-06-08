@@ -29,14 +29,11 @@ namespace NekoTweakMod.Items
                 }
             }
             {
-                /* if(item.type == ItemID.PowerGlove) // Changing multiple tooltip lines at once
-                                                    //  Tooltip0 will be the first tooltip line & tooltip1 the second, etc
-                 {
-                     TooltipLine line2 = tooltips.FirstOrDefault(x => x.Name == "Tooltip0" && x.mod == "Terraria");
-                     if (line2 != null) line2.text = "powerglove knockback text";
-                     TooltipLine line3 = tooltips.FirstOrDefault(x => x.Name == "Tooltip1" && x.mod == "Terraria");
-                     if (line3 != null) line3.text = "12% increased melee speed"; 
-                 } */
+                if (item.type == ItemID.FireGauntlet)
+                {
+                    TooltipLine line2 = tooltips.FirstOrDefault(x => x.Name == "Tooltip1" && x.mod == "Terraria");
+                    if (line2 != null) line2.text = "12% increased melee damage and speed";
+                }
             }
         }
     }

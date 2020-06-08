@@ -13,6 +13,7 @@
 - Lyker
 - [direwolf420](https://forums.terraria.org/index.php?members/direwolf420.123064/)
 - thegamemagic1234
+- Oli
 
 # **Current Features** 
 
@@ -21,6 +22,11 @@
 
 - Muramasa damage changed from 21 to 26
 (Bit more competetive damage as it can't apply any debuffs, but also not to much due to its fast attack speed)
+
+- A more linear fishing rod progression with buffs/nerfs to all rods, better early rods
+
+- Living Tree & Pyramid chest loot from fishing crates *still WIP*
+(Finch staff & Sandstorm in a Bottle etc)
 
 - Feral claws changed from "12% increased melee speed" to "melee autoswing"
 (Melee Autoswing also applies to summoner whips) 
@@ -43,8 +49,7 @@
 
 - Ivy whip renamed to "Ivy hook" to prevent confusions with the summoner whip weapons
 
-
-
+- Merchant now sell the full mining set so its achievable early on
 
 
 
@@ -75,15 +80,6 @@
 - Corrupt,Defiled,Crimson & Hematic crates crates now have a chance to give Bloody tear & Chum Caster
 (Makes it possible to get bloody tears when no blood moons are happening from evil biome fishing)
 
-- Scarab Fishing Rod & Chum Caster fishing power changed from 25% to 27%
-
-- Fisher of Souls(20%) & Fleshcatcher(22%) fishing powered changed to 30% and 32% respectively
-(corruption/crimson difference 
-
-- Sitting Duck's Fishing Pole fishing power changed from 40% to 35%
-
-- Mechanic's Rod fishing power changed from 30% to 40%
-
 
 
 **Weapon/Armor/Accessorie related:**
@@ -100,9 +96,6 @@
 
 
 **NPC related:**
-
-- Merchant now sell Mining Shirt & Mining Pants for 3 & 2 gold respectively
-(So its usable early game and not just vanity once you would have farmed for all pieces. Sell price for both of these still stay at 10silver each)
 
 - Dryad now sell opposite evil biome powder in graveyard biomes
 

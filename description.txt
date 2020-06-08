@@ -3,23 +3,23 @@ Adds several vanilla quality of life and balance changes
 
 Few example features:
 
-- Placed buff items like bewitching table,ammo box etc now works like campfires giving you the buff while nearby & for 10minutes after going away
+- Placed buff items like bewitching table,ammo box etc now work similar to campfires giving you the buff while nearby & also for 10minutes after
 
-- Muramasa damage changed to 26
+- Muramasa has been buffed
+
+- Living Tree & Pyramid chest loot from fishing crates *still WIP*
+(Finch staff & Sandstorm in a Bottle etc)
 
 - Feral claws now give "melee autoswing" (Melee Autoswing also applies to summoner whips) 
 
-- Titan glove now give "12% increased melee speed" 
+- Merchant now sell the full mining set so its achievable early on
 
-- Fire gauntlet melee damage & speed increased from 10% to 12%
-
-- Reaver Shark Use time changed from 22 to 19 (Slightly faster)
+- A more linear fishing rod progression with buffs/nerfs to all rods, better early rods
 
 - Shackle now gives a small amount of aggro when equipped & also have the tooltip "Enemies are more likely to target you"
 
 - Ivy whip renamed to "Ivy hook" to prevent confusions with the summoner whip weapons
 
-
-Visit the mod's homepage for a full feature list. 
+Visit the mod's homepage on the Terraria Forums or on GitHub for a full feature list.
 
 UwU

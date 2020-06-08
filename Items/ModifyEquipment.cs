@@ -4,7 +4,7 @@ using Terraria.ModLoader;
 
 namespace NekoTweakMod.Items
 {
-    public class SetDefaultVanilla : GlobalItem // class name & vanilla hook
+    public class ModifyEquipment : GlobalItem // class name & vanilla hook
     {
         public override void SetDefaults(Item item) // SetDefaults allows you to set/change properties of items
         {
@@ -15,7 +15,9 @@ namespace NekoTweakMod.Items
                 //item.knockBack = 0;
             }
             if (item.type == ItemID.WormScarf) item.defense = 2; // Single line if statement as we are only changing 1 property
-            if (item.type == ItemID.Muramasa) item.damage = 26;
+            if (item.type == ItemID.Muramasa) item.damage = 26; 
+            if (item.type == ItemID.MiningShirt) item.shopCustomPrice = 40000; // changes the sale value
+            if (item.type == ItemID.MiningPants) item.shopCustomPrice = 40000;
             {
                 if (item.type == ItemID.ReaverShark)
                 {

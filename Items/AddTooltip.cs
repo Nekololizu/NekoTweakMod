@@ -9,13 +9,13 @@ namespace NekoTweakMod.Items
     {
         public override void ModifyTooltips(Item item, List<TooltipLine> tooltips) // Allows you to modify tooltip properties for items
         {
-            if (item.type == ItemID.Shackle) // Specifies what item 
+            if (item.type == ItemID.Shackle) // Specifies what item
             {
                 TooltipLine newTooltip = new TooltipLine(mod, "Tooltip0", "Enemies are more likely to target you");
                 // Creates a new TooltipLine for your mod with the name Tooltip0
-                //"Tooltip#" - A tooltip line of the item. # will be 0 for the first line, 1 for the second, etc.
+                // "Tooltip#" - A tooltip line of the item. # will be 0 for the first line, 1 for the second, etc.
                 tooltips.Add(newTooltip);
-                //Adds the Tooltip to the list
+                // Adds the Tooltip to the list
             }
             {
                 if (item.type == ItemID.TitanGlove)
