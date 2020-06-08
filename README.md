@@ -66,50 +66,33 @@
 
 **Fishing related:**
 
-- Desert/Oasias crates can give Pyramid loot
-(Oasis & Mirage crates)
-
-- Iron,Mythril,Golden & Titanium crates can give Living Tree chest loot
-(Makes it possible to obtain Finch Staff from fishing anywhere for early game summoners if its not in a chest)
-
 - Fledgling Wings obtainable from Titanium crates in hardmode
 (So its not Journey mode exclusive, and still not obtainable before other wings to break balance)
 
-- Sky/Floating island crates can give "Band of starpower & Crimson rod"
-(Sky & Azure crates)
-
-- Increased chance for Water Walking Boots(1 in 11 to 1 in 5) & Lava Charm(1 in 40 to 39 in 200) from Ocean & Lava crates respectively
+- Increased chance for Water Walking Boots & Lava Charm from Ocean & Lava crates respectively
 (To reduce the grind/rng for Terraspark Boots)
 
-- Obsidian & Hellstone crates from lava can give "Hotline Fishing Hook" at a 1 in 40 chance
+- Obsidian & Hellstone crates from lava can give "Hotline Fishing Hook" 
 
-- Obsidian & Hellstone crates chance for Lavaproof fishing hook changed from 39 in 200 to 1 in 40 
-
-- Corrupt,Defiled,Crimson & Hematic crates crates now have a chance to give Bloody tear & Chum Caster
+- Corrupt,Defiled,Crimson & Hematic crates now have a chance to give Bloody tear & Chum Caster
 (Makes it possible to get bloody tears when no blood moons are happening from evil biome fishing)
+
 
 
 
 **Weapon/Armor/Accessorie related:**
 
-- Ninja set becoming a summoner armor
-
-- Obsidian Outlaw Hat now gives "Increases minion damage by 5%" instead of having no bonus
-
-- Obsidian armor now has a set effect giving "Increases your max number of minions by 1" instead of having no set effect
-(To have a summoner armor obtainable pre boss, while still not making it obtainable instantly from wood armor etc and to not compete directly with bee armor later)
+- Ninja & Obsidian Outlaw set becoming a summoner armor
 
 - Flesh Knuckles,Berserker's Glove & Hero Shield defense changed from 7 to 10
+
 (Evens it out a bit compared to Putrid scent "worth" wise)
 
 
 **NPC related:**
 
-- Dryad now sell opposite evil biome powder in graveyard biomes
-
-- Steampunker now sells the opposite evil biome solution in graveyard biomes
-
 - Jungle Mimic can spawn in post plantera Underground Jungle, drops temple traps
+
 (can be spawned manually by placing temple key inside an empty chest, Has a jungle mimic banner)
 
 
@@ -117,22 +100,24 @@
 **Item/crafting related:**
 
 - Cell phone now makes a portal like "potion of return" when you go back home
+
 (Recall & Return potions still have a faster "use time" to keep them useful)
 (On/off toggle in game QoL)
 
-- Obsidian block mining power requirement changed from 65% to 55% 
+- Obsidian block mining power requirement changed from 65% to 55%
+
 (bone/gold/plat or better, so its possible to break pre bosses without requiring bombs)
 
-- Trapped Chests now work like Dead Man's Chests and can be used for storage
-
-- corruption/crimson version of mud/jungle blocks
-(Keeping the jungle biome active even if it gets infected by an evil biome)
 
 
 **Custom items:**
 
-- Make [Ambient objects](https://terraria.gamepedia.com/Ambient_objects) lootable/placeable as furniture
 
 - Bottomless honey bucket
 
 - Honey sponge
+
+- corruption/crimson version of mud/jungle blocks
+(Keeping the jungle biome active even if it gets infected by an evil biome)
+
+- Make [Ambient objects](https://terraria.gamepedia.com/Ambient_objects) lootable/placeable as furniture
