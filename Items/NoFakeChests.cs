@@ -11,6 +11,7 @@ namespace NekoTweakMod.Items
         }
     } // still missing few 1.4 fake chests
 } // hopefully this simple code change them to working chests~
+// might have to clone the tiles and not the items
 /* 
             if(item.type == ItemID.Fake_BlueDungeonChest) item.CloneDefaults(ItemID.DeadMansChest);
             if (item.type == ItemID.Fake_BoneChest) item.CloneDefaults(ItemID.DeadMansChest);

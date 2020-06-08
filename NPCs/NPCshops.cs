@@ -34,7 +34,7 @@ namespace NekoTweakMod.NPCs
                     shop.item[nextSlot].shopCustomPrice = 10; 
                     nextSlot++; */
                     shop.item[nextSlot].SetDefaults(ItemID.PygmyNecklace);
-                    shop.item[nextSlot].shopCustomPrice = 150000;
+                    shop.item[nextSlot].shopCustomPrice = 350000;
                     nextSlot++;
                 }
             }

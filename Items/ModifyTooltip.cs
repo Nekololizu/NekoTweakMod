@@ -10,7 +10,10 @@ namespace NekoTweakMod.Items
     {
         public override void ModifyTooltips(Item item, List<TooltipLine> tooltips) // Allows you to set/change all available tooltips
         {
-            if (item.type == ItemID.FeralClaws) // Specifies what item to change, If its this specific item the code below will be used
+            if (item.type == ItemID.FeralClaws)
+            // Specifies what item to change, If its this specific item the code below will be used
+            // This code is for changing a tooltip that an item already has
+            // Look at AddTooltip.cs instead if the item don't have the Tooltip you are trying to change
             {
                 TooltipLine line = tooltips.FirstOrDefault(x => x.Name == "Tooltip0" && x.mod == "Terraria");
                 // Grabs Name(name of the tooltip) from the tooltip "tooltip0" from a mod with the name "Terraria"
@@ -36,7 +39,7 @@ namespace NekoTweakMod.Items
                 if (item.type == ItemID.SpiderMask)
                 {
                     TooltipLine line3 = tooltips.FirstOrDefault(x => x.Name == "Tooltip0" && x.mod == "Terraria");
-                    if (line3 != null) line3.text = ""; // Removes the tooltip from the item
+                    if (line3 != null) line3.text = ""; // Removes/hide the tooltip from the item
                 }
             }
         }
