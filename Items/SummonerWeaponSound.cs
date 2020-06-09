@@ -4,13 +4,15 @@ using Terraria.ModLoader;
 
 namespace NekoTweakMod.Items
 {
-    public class SummonerItemSound : GlobalItem // class name & global item hook
+    public class SummonerItemSound : GlobalItem // class name & GlobalItem hook
     {
         public override void SetDefaults(Item item) // SetDefaults allows us to set/change properties of items if we are using the GlobalItem hook
         { // Single line "if" statements, as we are only changing 1 property for each item
           // Pre Hardmode summon weapons
           // if (item.type == ItemID.BabyBird) item.UseSound = SoundID.Item44; v1.4
-            if (item.type == ItemID.SlimeStaff) item.UseSound = SoundID.Item44;
+            if (item.type == ItemID.SlimeStaff) item.UseSound = SoundID.Item44; // this code Change SlimeStaffs Use sound to SoundID item44
+            //if the item is an item and its a "slimestaff", the items "Use" sound will be item44
+
             if (item.type == ItemID.HornetStaff) item.UseSound = SoundID.Item76;
             //if (item.type == ItemID.Vampirefroggstaff) item.UseSound = SoundID.Item44;
             if (item.type == ItemID.ImpStaff) item.UseSound = SoundID.Item77;
@@ -29,7 +31,6 @@ namespace NekoTweakMod.Items
             if (item.type == ItemID.StardustCellStaff) item.UseSound = SoundID.Item113;
             if (item.type == ItemID.StardustDragonStaff) item.UseSound = SoundID.Item113;
             // if (item.type == ItemID.EmpressBlade) item.UseSound = SoundID.Item113; // Terraprisma
-
             // Sentry Staves
             if (item.type == ItemID.QueenSpiderStaff) item.UseSound = SoundID.Item78;
             if (item.type == ItemID.StaffoftheFrostHydra) item.UseSound = SoundID.Item1;
@@ -40,7 +41,6 @@ namespace NekoTweakMod.Items
 }
 
 /*
-
 Explanation/Idea by JohannSimm on the TCF:
 
  All the summon weapons introduced in 1.4, with the apparent exception of the Vampire Frog staff, use the Deadly Sphere Staff use sound effect, which is very metallic and digital-sounding. It doesn't suit many of the new summon weapons well at all, as it was intended to be the unique sound of the Deadly Sphere Staff. It seems almost as if the sound effect just got copied when the new items were created, and was never changed.

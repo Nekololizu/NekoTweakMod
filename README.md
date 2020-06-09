@@ -21,7 +21,7 @@
 
 - [Muramasa](https://www.youtube.com/watch?v=V4F_zBKyMY0) damage changed to 26
 
--Merchant now sell the full mining set so its achievable early on while its still useful
+- Merchant now sell the full mining set so its achievable early on while its still useful
 
 - A more linear fishing rod progression with buffs/nerfs to all rods, better early rods
 
