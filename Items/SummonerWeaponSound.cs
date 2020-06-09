@@ -11,7 +11,7 @@ namespace NekoTweakMod.Items
           // Pre Hardmode summon weapons
           // if (item.type == ItemID.BabyBird) item.UseSound = SoundID.Item44; v1.4
             if (item.type == ItemID.SlimeStaff) item.UseSound = SoundID.Item44; // this code Change SlimeStaffs Use sound to SoundID item44
-            //if the item is an item and its a "slimestaff", the items "Use" sound will be item44
+            //if the item is a "slimestaff" item, the items "Use" sound will be item44
 
             if (item.type == ItemID.HornetStaff) item.UseSound = SoundID.Item76;
             //if (item.type == ItemID.Vampirefroggstaff) item.UseSound = SoundID.Item44;
