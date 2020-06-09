@@ -93,14 +93,12 @@ Additionally the helm,shirt,pants give 5,10 & 5 % summon damage respectively
 - Ninja & Obsidian Outlaw set becoming a summoner armor
 
 - Flesh Knuckles,Berserker's Glove & Hero Shield defense changed from 7 to 10
-
 (Evens it out a bit compared to Putrid scent "worth" wise)
 
 
 **NPC related:**
 
 - Jungle Mimic can spawn in post plantera Underground Jungle, drops temple traps
-
 (can be spawned manually by placing temple key inside an empty chest, Has a jungle mimic banner)
 
 
@@ -108,12 +106,10 @@ Additionally the helm,shirt,pants give 5,10 & 5 % summon damage respectively
 **Item/crafting related:**
 
 - Cell phone now makes a portal like "potion of return" when you go back home
-
 (Recall & Return potions still have a faster "use time" to keep them useful)
 (On/off toggle in game QoL)
 
 - Obsidian block mining power requirement changed from 65% to 55%
-
 (bone/gold/plat or better, so its possible to break pre bosses without requiring bombs)
 
 

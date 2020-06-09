@@ -22,8 +22,13 @@ namespace NekoTweakMod.Items
             }
             {
                 //single-line "if" statement examples, changing 1 property only for each statement
-                if (item.type == ItemID.TitanGlove) player.meleeSpeed += 0.12f; // 12% increased melee speed
                 if (item.type == ItemID.Shackle) player.aggro += 50; // increases players aggro by 50+
+            }
+            {
+                if (item.type == ItemID.TitanGlove) player.meleeSpeed += 0.12f; // 12% increased melee speed
+                {
+                    if (player.HeldItem.melee || player.HeldItem.summon) player.releaseUseItem = true;
+                }
             }
             {
                 if (item.type == ItemID.FireGauntlet)
