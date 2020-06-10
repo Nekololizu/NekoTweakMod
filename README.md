@@ -71,6 +71,7 @@ Additionally the helm,shirt,pants give 5,10 & 5 % summon damage respectively
 
 - Still thinking about where/how to place Living Tree loot in crates
 (Will probly be the normal wood,iron,gold crates etc but with their own lootpool)
+might do a modded "forest" crate as well
 
 - Pyramid chest loot will be in oasis Crates
 
