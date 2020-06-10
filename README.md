@@ -106,6 +106,8 @@ might do a modded "forest" crate as well
 
 **Item/crafting related:**
 
+- Hellforge,Adamantite Forge & Titanium Forge now also work like demon/crimson altars for crafting
+
 - Cell phone now makes a portal like "potion of return" when you go back home
 (Recall & Return potions still have a faster "use time" to keep them useful)
 (On/off toggle in game QoL)
