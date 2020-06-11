@@ -13,44 +13,44 @@ namespace NekoTweakMod.Fishing.Items
             // Context in this case specifies what type of thing we are opening, has to be one of these: "present", "bossBag", "crate", "lockBox", "herbBag", or "goodieBag"
             // arg specifies the itemid of the present/bag/crate we are trying to open
             {
-                // "number/100" or "1 = 100%" chance/rng &  Itemid Specifies the item to give to the player
+                // "number/100" or 1 = 1% chance &  Itemid Specifies the item to give to the player
                 // Each item here will roll individually, so its possible for several of them to drop together with each other
                 // They will also not share any specific present/bag/crate loot pool with any other items
                 // This means they will always get a chance to roll 100% of the time when a present/bag/crate is used
-                // if (Main.rand.NextBool(33)) player.QuickSpawnItem(ItemID.sandstorm in a bottle); 
-                // if (Main.rand.NextBool(25)) player.QuickSpawnItem(ItemID.Meowmere);
-                // if (Main.rand.NextBool(50)) player.QuickSpawnItem(ItemID.PlanteraBossBag);
-                // if (Main.rand.NextBool(75)) player.QuickSpawnItem(ItemID.HotlineFishingHook);
+                // if (Main.rand.NextBool(33, 100)) player.QuickSpawnItem(ItemID.sandstorm in a bottle); 
+                // if (Main.rand.NextBool(25, 100)) player.QuickSpawnItem(ItemID.Meowmere);
+                // if (Main.rand.NextBool(50, 100)) player.QuickSpawnItem(ItemID.PlanteraBossBag);
+                // if (Main.rand.NextBool(75, 100)) player.QuickSpawnItem(ItemID.HotlineFishingHook);
 
             }
             {
                 if (context == "crate" && arg == ItemID.oasiscratehardmode) // hardmode oasis crate
                 {
-                    if (Main.rand.NextBool(33)) player.QuickSpawnItem(ItemID.WoodenSword);
+                    if (Main.rand.NextBool(33, 100)) player.QuickSpawnItem(ItemID.WoodenSword);
                 }
             }
             {
                 if (context == "crate" && arg == ItemID.oceancrate)
                 {
-                   if (Main.rand.NextBool(95)) player.QuickSpawnItem(ItemID.WaterWalkingBoots); // 5% chance for each ocean biome crate
+                   if (Main.rand.NextBool(5, 100)) player.QuickSpawnItem(ItemID.WaterWalkingBoots); // 5% chance for each ocean biome crate
                 }
             }
             {
                 if (context == "crate" && arg == ItemID.oceancratehardmode) // hard mode version of ocean crate
                 {
-                    if (Main.rand.NextBool(95)) player.QuickSpawnItem(ItemID.WaterWalkingBoots);
+                    if (Main.rand.NextBool(5, 100)) player.QuickSpawnItem(ItemID.WaterWalkingBoots);
                 }
             }
             {
                 if (context == "crate" && arg == ItemID.lavacrate)
                 {
-                    if (Main.rand.NextBool(97)) player.QuickSpawnItem(ItemID.LavaCharm); // 3% chance for each lava crate
+                    if (Main.rand.NextBool(3, 100)) player.QuickSpawnItem(ItemID.LavaCharm); // 3% chance for each lava crate
                 }
             }
             {
                 if (context == "crate" && arg == ItemID.lavacrate) // hardmode version of lava crate
                 {
-                    if (Main.rand.NextBool(97)) player.QuickSpawnItem(ItemID.LavaCharm);
+                    if (Main.rand.NextBool(3, 100)) player.QuickSpawnItem(ItemID.LavaCharm);
                 }
             } 
         }

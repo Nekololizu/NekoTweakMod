@@ -4,14 +4,20 @@ using Terraria.ModLoader;
 
 namespace NekoTweakMod.Items
 {
-    public class ModifyEquipment : GlobalItem // class name & vanilla hook
+    public class ModifyEquipment : GlobalItem
+    // class name &  GlobalItem hook(this allows us to change vanilla items) 
+    // The GlobalItem hooks have an "item" parameter
+    // so we have to check if that "item" type is what we are looking for when trying to specify an itemid
+    // this is why we have to do for example (item.type == itemid.slimestaff) and not 
+    // only itemid.slimestaff like we would in the ModItem hooks when we try to specify a specific vanilla item
     {
         public override void SetDefaults(Item item) // SetDefaults allows you to set/change properties of items
         {
-            // if (item.type == ItemID.BabyBirdStaff) // disabled until tmod v1.4 
+            //  disabled until tmod v1.4 
+            // if (item.type == ItemID.BabyBirdStaff) // Checks the item type & the items itemid
             // specifies what item to change
             {
-                // item.damage = 9; // changes the items damage
+                // item.damage = 9; // changes the specified items damage
                 //item.knockBack = 0;
             }
             if (item.type == ItemID.WormScarf) item.defense = 2; // Single line if statement as we are only changing 1 property

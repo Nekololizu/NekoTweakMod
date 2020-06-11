@@ -23,15 +23,19 @@ namespace NekoTweakMod.Fishing
         }
         public override void CatchFish(Item fishingRod, Item bait, int power, int liquidType, int poolSize, int worldLayer, int questFish, ref int caughtType, ref bool junk)
         {
-            if (liquidType == 2 && Main.rand.Next(1) == 0) // if hardmode
+            // if hardmode 
+            if (Main.hardMode && liquidType == 2 && Main.rand.Next(100) == 100)
             // Liquid types, 0 is water, 1 is lava, 2 is honey
-            // Main.rand.Next(1) == 0) is the catch % chance to catch the Crate
-            // n/100 chance or 1 = 100%
+            // Main.rand.Next(1, 100) == 0) is the catch % chance to catch the Crate & the chance required to get it
+            // n/100 chance or 1 = 1%
+            // Main.rand.Next(100), Would generates a number between 0 & 99 instead if there is no specified chance
+
             {
                 caughtType = ItemType<Fishing.Items.ForestCrate>();
             }
             {
-                if (liquidType == 2 && Main.rand.Next(1) == 0) // if prehardmode
+                // if prehardmode 
+                if (!Main.hardMode && liquidType == 2 && Main.rand.Next(100) == 100)
                 {
                     caughtType = ItemType<Fishing.Items.ForestCrate>();
                 }
@@ -39,8 +43,29 @@ namespace NekoTweakMod.Fishing
         }
     }
 }
+
+// how to check "if" hardmode examples~
+//Main.hardMode
+//NPC.downedSlimeKing
+
 /*
+  Main.rand explanations
+ 
+Main.rand.Next(100)
+^this picks a number between 0 and 99
+Main.rand.Next(100) generates a number between 0 and 99
+
+Next(5, 10) will get you the values 5, 6, 7, 8, 9
+Just like how Next(5) will only get you 0, 1, 2, 3, 4 and not 5
+
 Main.rand.Next(1) == 0) 
-Main.rand.NextBool(97)
-^^how do these even work~
+Main.rand.Next(100) == 0) == 0 is the same as 1/100 or 1%
+
+Main.rand.NextBool(97, 100) // 97% chance
+Next(min, max) will get you a value from min to (max - 1)
+
+Main.rand.NextBool(100) is the same as Main.rand.Next(100) == 0
+also Next(100) can't return 100
+
+Lyker,Teok,iScalieable & absoluteAquarian, trying to explain this to me^
 */
