@@ -5,7 +5,7 @@ using Terraria.ID;
 using static Terraria.ModLoader.ModContent;
 
 
-namespace NekoTweakMod.Fishing // // where this file is located in the mods folders
+namespace NekoTweakMod.Fishing.Tiles // // where this file is located in the mods folders
 {
     public class ForestCratePlaced : ModTile // Here we are setting up everything for the tile while the item is placed
     {
@@ -29,7 +29,7 @@ namespace NekoTweakMod.Fishing // // where this file is located in the mods fold
         }
         public override void KillMultiTile(int i, int j, int frameX, int frameY) // makes it possible to set/change what happens when a tile break
         {
-            Item.NewItem(i * 16, j * 16, 32, 16, ItemType<Fishing.ForestCrate>()); // where the class is located in the namespace, where file is located in the mod folders~
+            Item.NewItem(i * 16, j * 16, 32, 16, ItemType<Fishing.Items.ForestCrate>()); // where the class is located in the namespace, where file is located in the mod folders~
         }
     }
 }

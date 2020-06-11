@@ -3,7 +3,7 @@ using Terraria.ID;
 using static Terraria.ModLoader.ModContent;
 using Terraria;
 
-namespace NekoTweakMod.Fishing // where this file is located in the mods folders
+namespace NekoTweakMod.Fishing.Items // where this file is located in the mods folders
 {
     public class ForestCrate : ModItem // Here we are setting up the crate as an item while in the players inventory, and making it so it creates a tile when placed 
     {
@@ -25,7 +25,7 @@ namespace NekoTweakMod.Fishing // where this file is located in the mods folders
             item.consumable = true; // if doing something with the item consumes/removes it 
             item.value = Item.sellPrice(0, 1, 0, 0); ; // sets the sale/purchase value of the item ( plat,gold,silver,copper)
             item.rare = ItemRarityID.Green; // sets the rarity of the item
-            item.createTile = TileType<Fishing.ForestCratePlaced>(); // where the class is located in the namespace, where file is located in the mod folders~
+            item.createTile = TileType<Fishing.Tiles.ForestCratePlaced>(); // where the class is located in the namespace, where file is located in the mod folders~
             // for NekoTweakMod this is located in the Tiles folder
         }
         public override bool CanRightClick()

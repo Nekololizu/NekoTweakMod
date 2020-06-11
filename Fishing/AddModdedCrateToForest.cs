@@ -28,12 +28,12 @@ namespace NekoTweakMod.Fishing
             // Main.rand.Next(1) == 0) is the catch % chance to catch the Crate
             // n/100 chance or 1 = 100%
             {
-                caughtType = ItemType<ForestCrate>();
+                caughtType = ItemType<Fishing.Items.ForestCrate>();
             }
             {
                 if (liquidType == 2 && Main.rand.Next(1) == 0) // if prehardmode
                 {
-                    caughtType = ItemType<ForestCrate>();
+                    caughtType = ItemType<Fishing.Items.ForestCrate>();
                 }
             }
         }

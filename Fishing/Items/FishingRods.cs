@@ -2,7 +2,7 @@ using Terraria.ID;
 using Terraria;
 using Terraria.ModLoader;
 
-namespace NekoTweakMod.Fishing
+namespace NekoTweakMod.Fishing.Items
 {
     public class FishingRods : GlobalItem // class name & vanilla hook
     {

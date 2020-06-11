@@ -2,7 +2,7 @@
 using Terraria;
 using Terraria.ModLoader;
 
-namespace NekoTweakMod.Fishing
+namespace NekoTweakMod.Fishing.Items
 {
     public class AddItemToCrate : GlobalItem
     {
