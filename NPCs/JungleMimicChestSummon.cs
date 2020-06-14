@@ -57,7 +57,7 @@ namespace NekoTweakMod.NPCs
                         }
                         else
                         {
-                            numberOtherItems++; 
+                            numberOtherItems++;  // increases the numberOtherItems value 
                         }
                     }
                 }

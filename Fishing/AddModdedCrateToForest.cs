@@ -24,28 +24,33 @@ namespace NekoTweakMod.Fishing
         public override void CatchFish(Item fishingRod, Item bait, int power, int liquidType, int poolSize, int worldLayer, int questFish, ref int caughtType, ref bool junk)
         {
             // if hardmode 
-            if (Main.hardMode && liquidType == 2 && Main.rand.Next(100) == 100)
+            if (Main.hardMode && liquidType == 2) // if its hardmode & the liquid is water
+            {
+                if (Main.rand.NextBool(3, 100)) // 3, 100 = 3% chance or 3/100 chance 
+                {
+                    caughtType = ItemType<Fishing.Items.ForestCrate>();
+                }
+            }
             // Liquid types, 0 is water, 1 is lava, 2 is honey
             // Main.rand.Next(1, 100) == 0) is the catch % chance to catch the Crate & the chance required to get it
             // n/100 chance or 1 = 1%
             // Main.rand.Next(100), Would generates a number between 0 & 99 instead if there is no specified chance
-
-            {
-                caughtType = ItemType<Fishing.Items.ForestCrate>();
-            }
             {
                 // if prehardmode 
-                if (!Main.hardMode && liquidType == 2 && Main.rand.Next(100) == 100)
+                if (!Main.hardMode && liquidType == 2) // if its not hardmode & the liquid is water
                 {
-                    caughtType = ItemType<Fishing.Items.ForestCrate>();
+                    if (Main.rand.NextBool(3, 100))
+                    {
+                        caughtType = ItemType<Fishing.Items.ForestCrate>();
+                    }
                 }
             }
         }
     }
 }
 
-// how to check "if" hardmode examples~
-//Main.hardMode
+// Examples how to check "if" hardmode ~
+// Main.hardMode & !Main.hardMode(if its not hardmode)
 //NPC.downedSlimeKing
 
 /*

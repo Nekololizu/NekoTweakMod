@@ -51,8 +51,3 @@ namespace NekoTweakMod.Fishing.Items // where this file is located in the mods f
         }
     }
 }
-
-// if (Main.hardMode)
-// ItemID.Sets.IsFishingCrateHardmode
-// public static bool[] IsFishingCrate = ItemID.Sets.Factory.CreateBoolSet(2334, 2335, 2336, 3203, 3204, 3205, 3206, 3207, 3208, 4405, 4407, 4877, 5002, 3979, 3980, 3981, 3982, 3983, 3984, 3985, 3986, 3987, 4406, 4408, 4878, 5003);
-// public static bool[] IsFishingCrateHardmode = ItemID.Sets.Factory.CreateBoolSet(3979, 3980, 3981, 3982, 3983, 3984, 3985, 3986, 3987, 4406, 4408, 4878, 5003);

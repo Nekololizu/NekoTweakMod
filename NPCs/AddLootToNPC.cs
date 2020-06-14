@@ -13,19 +13,21 @@ namespace NekoTweakMod.Items
                 // "number/100" or 1 = 1% chance &  Itemid Specifies the item to give to the player
                 if (Main.rand.NextBool(33, 100)) // 33% or 33/100 chance to drop 
                 {
-                    Item.NewItem(npc.getRect(), ItemID.SpikyBallTrap, 15); // adds the specified itemid as a new loot/drop for the npc and makes 15 of the item drop at once
+                    Item.NewItem(npc.getRect(), ItemID.SpikyBallTrap, Main.rand.Next(1, 21));
+                    // adds the specified itemid as a new loot/drop for the npc and 
+                    // "Main.rand.Next(1, 21));" gives a random amount between 1-20
                 }
                 if (Main.rand.NextBool(33, 100))
                 {
-                    Item.NewItem(npc.getRect(), ItemID.FlameTrap, 15);
+                    Item.NewItem(npc.getRect(), ItemID.FlameTrap, Main.rand.Next(1, 21));
                 }
                 if (Main.rand.NextBool(33, 100))
                 {
-                    Item.NewItem(npc.getRect(), ItemID.SpearTrap, 15);
+                    Item.NewItem(npc.getRect(), ItemID.SpearTrap, Main.rand.Next(1, 21));
                 }
                 if (Main.rand.NextBool(33, 100))
                 {
-                    Item.NewItem(npc.getRect(), ItemID.SuperDartTrap, 15);
+                    Item.NewItem(npc.getRect(), ItemID.SuperDartTrap, Main.rand.Next(1, 21)); 
                 }
             }
         }

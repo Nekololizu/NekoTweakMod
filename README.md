@@ -14,6 +14,7 @@
 - [direwolf420](https://forums.terraria.org/index.php?members/direwolf420.123064/)
 - thegamemagic1234
 - Oli
+- Teok
 
 # **Current Features so far** 
 
@@ -28,6 +29,9 @@
 - Adds corruption/crimson/event Items all the time for NPCs
 
 - Steampunker will always sell the mechanic's fishing rod
+
+- "Wet" debuff from water & "slimed" debuff when hit by a slime
+( purely visual debuffs, without any side effects)
 
 - Living Tree & Pyramid chest loot from fishing crates *WIP, need tmod v1.4*
 (Finch staff & Sandstorm in a Bottle etc)
@@ -58,6 +62,9 @@ Additionally the helm,shirt,pants give 5,10 & 5 % summon damage respectively
 
 - Ivy whip renamed to "Ivy hook" to prevent confusions with the summoner whip weapons
 
+- Jungle Mimic can can be spawned manually by placing a temple key inside an empty chest
+(drops temple traps)
+
 - Trapped/fake Chests now work like Dead Man's Chests and can be used for storage *WIP, need tmod v1.4*
 
 
@@ -69,11 +76,9 @@ Additionally the helm,shirt,pants give 5,10 & 5 % summon damage respectively
 
 **Fishing related:**
 
-- Still thinking about where/how to place Living Tree loot in crates
-(Will probly be the normal wood,iron,gold crates etc but with their own lootpool)
-might do a modded "forest" crate as well
+- Living Tree loot in forest biome crates
 
-- Pyramid chest loot will be in oasis Crates
+- Pyramid chest loot will be in oasis biome Crates
 
 - Fledgling Wings obtainable from Titanium crates in hardmode
 (So its not Journey mode exclusive, and still not obtainable before other wings to break balance)
@@ -81,7 +86,7 @@ might do a modded "forest" crate as well
 - Increased chance for Water Walking Boots & Lava Charm from Ocean & Lava crates respectively
 (To reduce the grind/rng for Terraspark Boots)
 
-- Obsidian & Hellstone crates from lava can give "Hotline Fishing Hook" 
+- Obsidian & Hellstone crates from lava can give "Hotline Fishing Hook"
 
 - Corrupt,Defiled,Crimson & Hematic crates now have a chance to give Bloody tear & Chum Caster
 (Makes it possible to get bloody tears when no blood moons are happening from evil biome fishing)
@@ -103,10 +108,14 @@ might do a modded "forest" crate as well
 (can be spawned manually by placing temple key inside an empty chest, Has a jungle mimic banner)
 
 
+**Buff related:**
+
+- Preserve summoner minion buffs on/after death
+
 
 **Item/crafting related:**
 
-- Hellforge,Adamantite Forge & Titanium Forge now also work like demon/crimson altars for crafting
+- Hellforge,Adamantite Forge & Titanium Forge now also work like demon/crimson altars for crafting boss summons
 
 - Cell phone now makes a portal like "potion of return" when you go back home
 (Recall & Return potions still have a faster "use time" to keep them useful)
