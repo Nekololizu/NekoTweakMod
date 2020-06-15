@@ -8,7 +8,7 @@ namespace NekoTweakMod.Fishing
     {
         public static bool PlayerIsInForest(Player player) // Technically, the Forest biome doesn't have an ID.  It's the default biome when no other biomes are present.
         {
-            return !player.ZoneJungle
+            return !player.ZoneJungle // not in the jungle biome
                 && !player.ZoneDungeon
                 && !player.ZoneCorrupt
                 && !player.ZoneCrimson
@@ -18,7 +18,7 @@ namespace NekoTweakMod.Fishing
                 && !player.ZoneGlowshroom
                 && !player.ZoneMeteor
                 && !player.ZoneBeach
-                && player.ZoneOverworldHeight;
+                && player.ZoneOverworldHeight; // Is on the surface
 
         }
         public override void CatchFish(Item fishingRod, Item bait, int power, int liquidType, int poolSize, int worldLayer, int questFish, ref int caughtType, ref bool junk)
@@ -28,7 +28,7 @@ namespace NekoTweakMod.Fishing
             {
                 if (Main.rand.NextBool(3, 100)) // 3, 100 = 3% chance or 3/100 chance 
                 {
-                    caughtType = ItemType<Fishing.Items.ForestCrate>();
+                    caughtType = ItemType<Fishing.Items.ForestCrateHard>();
                 }
             }
             // Liquid types, 0 is water, 1 is lava, 2 is honey

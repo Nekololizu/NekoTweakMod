@@ -27,7 +27,7 @@ namespace NekoTweakMod.Items
                 }
                 if (Main.rand.NextBool(33, 100))
                 {
-                    Item.NewItem(npc.getRect(), ItemID.SuperDartTrap, Main.rand.Next(1, 21)); 
+                    Item.NewItem(npc.getRect(), ItemID.SuperDartTrap, Main.rand.Next(1, 21));
                 }
             }
         }

@@ -1,5 +1,3 @@
-using System;
-using System.ComponentModel;
 using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
@@ -11,7 +9,7 @@ namespace NekoTweakMod.Buffs
         public override void OnHitPlayer(NPC npc, Player target, int damage, bool crit) // allows us to change what happens when an npc hit/hurt the player
         {
             // If the npc type is a greenslime, it will apply the slimed debuff for 15seconds(1sec = 60ticks, 60x15 = 900) when it attacks the player 
-            if (npc.type == NPCID.GreenSlime) Main.LocalPlayer.AddBuff(BuffID.Slimed,899); 
+            if (npc.type == NPCID.GreenSlime) Main.LocalPlayer.AddBuff(BuffID.Slimed, 899);
             if (npc.type == NPCID.BlueSlime) Main.LocalPlayer.AddBuff(BuffID.Slimed, 899);
             if (npc.type == NPCID.RedSlime) Main.LocalPlayer.AddBuff(BuffID.Slimed, 899);
             if (npc.type == NPCID.PurpleSlime) Main.LocalPlayer.AddBuff(BuffID.Slimed, 899);

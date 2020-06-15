@@ -43,9 +43,9 @@ namespace NekoTweakMod.NPCs
             }
             int numberofKeys = 0; // integer value for checking amount of keys 
             int numberOtherItems = 0; // integer value for checking if there are any other items in the chest
-            ushort tileType = Main.tile[Main.chest[num].x, Main.chest[num].y].type; 
+            ushort tileType = Main.tile[Main.chest[num].x, Main.chest[num].y].type;
             int tileStyle = (int)(Main.tile[Main.chest[num].x, Main.chest[num].y].frameX / 36);
-            if (TileID.Sets.BasicChest[tileType] && (tileStyle < 5 || tileStyle > 6)) 
+            if (TileID.Sets.BasicChest[tileType] && (tileStyle < 5 || tileStyle > 6))
             {
                 for (int i = 0; i < 40; i++)
                 {
@@ -53,7 +53,7 @@ namespace NekoTweakMod.NPCs
                     {
                         if (Main.chest[num].item[i].type == ItemID.TempleKey) // What item that should be used for this npc spawning/summoning
                         {
-                            numberofKeys += Main.chest[num].item[i].stack; 
+                            numberofKeys += Main.chest[num].item[i].stack;
                         }
                         else
                         {
