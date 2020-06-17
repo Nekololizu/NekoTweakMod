@@ -8,7 +8,7 @@ namespace NekoTweakMod.Items
     {
         public override void NPCLoot(NPC npc) // allows you to change what happens when an npc dies, in this case we are adding loot
         {
-            if (npc.type == NPCID.BigMimicJungle)// && NPC.downedGolemBoss) // if the npc type is this specific npc & golem has been defated
+            if (npc.type == NPCID.BigMimicJungle)// if the npc type is this specific npc 
             {
                 // "number/100" or 1 = 1% chance &  Itemid Specifies the item to give to the player
                 if (Main.rand.NextBool(33, 100)) // 33% or 33/100 chance to drop 

@@ -1,8 +1,9 @@
 using Terraria.ID;
-using System;
 using Terraria;
 using Terraria.ModLoader;
 using NekoTweakMod.Items.Banners;
+using System;
+using System.Security.Cryptography.X509Certificates;
 
 namespace NekoTweakMod.NPCs
 {
@@ -10,10 +11,19 @@ namespace NekoTweakMod.NPCs
     {
         public override void SetDefaults(NPC npc)
         {
-           // if (NPCID.BigMimicJungle)
+            
+            if (npc.type == NPCID.BigMimicJungle)
             {
-                // banner = npc.type;
-                //  bannerItem = ItemType<Items.Banners.JungleMimicBanner>();
+                Item.NPCtoBanner(NPCID.BigMimicJungle);
+
+                // need to specify the banner that should drop
+
+                // Item.BannerToItem<JungleMimicBanner>;
+                // npc.BannerID = ItemType<JungleMimicBanner>();
+                // Item.BannerToItem(JungleMimicBanner());
+                // npc.BannerID(JungleMimicBanner);
+                // Item.NPCtoBanner(JungleMimicBanner)
+                // ItemType<JungleMimicBanner>();
             }
         }
     }

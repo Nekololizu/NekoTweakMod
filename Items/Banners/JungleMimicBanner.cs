@@ -1,6 +1,7 @@
 using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
+using static Terraria.ModLoader.ModContent;
 
 namespace NekoTweakMod.Items.Banners
 {
@@ -19,7 +20,7 @@ namespace NekoTweakMod.Items.Banners
             item.consumable = true;
             item.rare = ItemRarityID.Blue;
             item.value = Item.buyPrice(0, 0, 10, 0); // 10 silver
-            //item.createTile = TileType<MonsterBanner>();
+            item.createTile = TileType<JungleMimicBannerTile>();
             item.placeStyle = 1;
         }
     }

@@ -1,4 +1,4 @@
-using IL.Terraria.ID;
+using Terraria.ID;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Terraria;
@@ -6,6 +6,7 @@ using Terraria.DataStructures;
 using Terraria.Enums;
 using Terraria.ModLoader;
 using Terraria.ObjectData;
+
 
 namespace NekoTweakMod.Items.Banners
 {
@@ -26,49 +27,28 @@ namespace NekoTweakMod.Items.Banners
             dustType = -1;
             disableSmartCursor = true;
             ModTranslation name = CreateMapEntryName();
-            name.SetDefault("Jungle Mimic Banner");
-           // AddMapEntry(new Color(13, 88, 130), name);
+            name.SetDefault("Banner");
+            AddMapEntry(new Color(13, 88, 130), name);
         }
         public override void KillMultiTile(int i, int j, int frameX, int frameY)
         {
-            int style = frameX / 18;
-            string item;
-            switch (style)
-            {
-                case 0:
-                    item = "Jungle Mimic";
-                    break;
-                default:
-                    return;
-            }
-            Item.NewItem(i * 16, j * 16, 16, 48, mod.ItemType(item));
+            //Item.NewItem(i * 16, j * 16, 16, 48, mod.ItemType(JungleMimicBanner));
         }
         public override void NearbyEffects(int i, int j, bool closer)
         {
             if (closer)
             {
                 Player player = Main.LocalPlayer;
-                int style = Main.tile[i, j].frameX / 18;
-                string type;
-                switch (style)
-                {
-                    case 0:
-                        type = "Jungle Mimic";
-                        break;
-                    default:
-                        return;
-                }
-                player.NPCBannerBuff[mod.NPCType(type)] = true;
+               // player.NPCBannerBuff(NPCID.BigMimicJungle) = true;
                 player.hasBanner = true;
             }
         }
-     /*   public override void SetSpriteEffects(int i, int j, ref SpriteEffects spriteEffects)
+      public override void SetSpriteEffects(int i, int j, ref SpriteEffects spriteEffects)
         {
             if (i % 2 == 1)
             {
                 spriteEffects = SpriteEffects.FlipHorizontally;
             }
         }
-     */
     }
 }
